@@ -1,0 +1,46 @@
+{
+  "name": "tinderclone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "karma-start",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "bootstrap": "^4.0.0-alpha.6",
+    "css-loader": "^0.28.4",
+    "expect": "^1.20.2",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.3",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.3",
+    "karma-webpack-with-fast-source-maps": "^1.10.1",
+    "lodash": "^4.17.4",
+    "mocha": "^3.4.2",
+    "node-sass": "^4.5.3",
+    "react-addons-test-utils": "0.14.3",
+    "react-redux": "4.0.0",
+    "redux": "3.0.4",
+    "sass-loader": "^6.0.5",
+    "script-loader": "^0.7.0",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.6.1"
+  },
+    "dependencies": {
+      "express": "^4.15.3",
+      "react": "0.14.3",
+      "react-dom": "0.14.3",
+      "youtube-api-search": "0.0.5"
+    }
+}
+
