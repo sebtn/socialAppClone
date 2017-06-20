@@ -4,8 +4,12 @@
 │   │   └── index.js
 │   ├── app.js
 │   ├── components
+│   │   └── book-app.js
+│   ├── containers
+│   │   └── book-list.js
 │   ├── reducers
-│   │   └── index.js
+│   │   ├── index.js
+│   │   └── reducer_books.js
 │   ├── store
 │   │   └── configureStore.js
 │   ├── styles
@@ -15925,38 +15929,30 @@
 │   │   └── server.js
 │   ├── react-redux
 │   │   ├── CHANGELOG.md
-│   │   ├── CODE_OF_CONDUCT.md
 │   │   ├── dist
 │   │   │   ├── react-redux.js
 │   │   │   └── react-redux.min.js
-│   │   ├── docs
-│   │   │   ├── api.md
-│   │   │   ├── quick-start.md
-│   │   │   └── troubleshooting.md
 │   │   ├── lib
 │   │   │   ├── components
 │   │   │   │   ├── connect.js
 │   │   │   │   └── Provider.js
 │   │   │   ├── index.js
 │   │   │   └── utils
-│   │   │       ├── isPlainObject.js
 │   │   │       ├── shallowEqual.js
 │   │   │       ├── storeShape.js
 │   │   │       └── wrapActionCreators.js
 │   │   ├── LICENSE.md
 │   │   ├── package.json
 │   │   ├── README.md
-│   │   ├── test
-│   │   │   ├── components
-│   │   │   │   ├── connect.spec.js
-│   │   │   │   └── Provider.spec.js
-│   │   │   └── utils
-│   │   │       ├── isPlainObject.spec.js
-│   │   │       ├── shallowEqual.spec.js
-│   │   │       └── wrapActionCreators.js
-│   │   ├── webpack.config.base.js
-│   │   ├── webpack.config.development.js
-│   │   └── webpack.config.production.js
+│   │   └── src
+│   │       ├── components
+│   │       │   ├── connect.js
+│   │       │   └── Provider.js
+│   │       ├── index.js
+│   │       └── utils
+│   │           ├── shallowEqual.js
+│   │           ├── storeShape.js
+│   │           └── wrapActionCreators.js
 │   ├── readable-stream
 │   │   ├── CONTRIBUTING.md
 │   │   ├── doc
@@ -18658,4 +18654,4 @@
 ├── tree.js
 └── webpack.config.js
 
-2111 directories, 16547 files
+2111 directories, 16543 files
