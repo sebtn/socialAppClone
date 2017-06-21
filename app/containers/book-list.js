@@ -1,7 +1,8 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
-import {selectBook} from '../actions/index'
 import {bindActionCreators} from 'redux'
+
+import {selectBook} from '../actions/index'
 
 class BookList extends Component {
 /*-----------------------------------------------------------------*/
@@ -52,5 +53,6 @@ function mapDispatchToProps(dispatch) {
 /*-----------------------------------------------------------------*/
 /* Connect takes a function and a component and 
  * produces a ...Container => component aware of the state 
- * need to know about selectBook action as prop */
+ * need to know about selectBook action as prop. 
+ * the idea behind this is also connect to the store  */
 export default connect(mapStateToProps, mapDispatchToProps)(BookList)
