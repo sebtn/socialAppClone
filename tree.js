@@ -6,9 +6,11 @@
 │   ├── components
 │   │   └── book-app.js
 │   ├── containers
+│   │   ├── book-details.js
 │   │   └── book-list.js
 │   ├── reducers
 │   │   ├── index.js
+│   │   ├── reducer_active_book.js
 │   │   └── reducer_books.js
 │   ├── store
 │   │   └── configureStore.js
@@ -18654,4 +18656,4 @@
 ├── tree.js
 └── webpack.config.js
 
-2111 directories, 16543 files
+2111 directories, 16545 files
