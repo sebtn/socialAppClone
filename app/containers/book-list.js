@@ -44,7 +44,7 @@ function mapStateToProps(state) {
  * in the container BookList, the idea is to be 
  * able to call the selectBook action creator as
  * this.props.selectBook(). Useful for defining and 
- * firing up callbacks to parents  */
+ * firing up callbacks to parents => i.e onCLick  */
 function mapDispatchToProps(dispatch) {
  /* selectBook is called, the result (value in this case) 
   * is passed to all reducers. The binding does it  */
