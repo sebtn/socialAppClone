@@ -1,8 +1,8 @@
 export default function () {
 	return [
-	{title: 'Js the goof parts'},
-	{title: 'Pottery Hairest'},
-	{title: 'Ruby does not suck'},
-	{title: 'Not the cool cat'},
+	{title: 'Js the goof parts', pages: 120},
+	{title: 'Pottery Hairest', pages: 400},
+	{title: 'Ruby does not suck', pages: 1230},
+	{title: 'Not the cool cat', pages: 13},
 	]
 }
