@@ -33,7 +33,8 @@ function mapStateToProps(state) {
   /* The return whatever will show up as props inside
    * of BookList class, usually returns an object
    * Glues react and redux together.
-   * reducer for book return an array of books  */
+   * reducer for book return an array of books  
+   * note books is also referred in the index/reducers*/
   return {
     books: state.books,
   }
@@ -43,11 +44,16 @@ function mapStateToProps(state) {
 /* anything return from this func will get passed as props
  * in the container BookList, the idea is to be 
  * able to call the selectBook action creator as
- * this.props.selectBook(). Useful for defining and 
- * firing up callbacks to parents => i.e onCLick  */
+ * this.props.selectBook() inside the class container.
+ *  Useful for defining and actions as props and
+ * firing up them as callbacks to parents => i.e onCLick  */
 function mapDispatchToProps(dispatch) {
- /* selectBook is called, the result (value in this case) 
-  * is passed to all reducers. The binding does it  */
+ /* Bind action creators takes two args first is an object
+  * for action second is dispatch.
+  * whenever selectBook is called, the result (value in this case) 
+  * is passed to all reducers. The binding does the flow 
+  * note that the action defined selecteBook contains a type 
+  * called 'BOOK_SELECTED' which is referred in the reducers*/
   return bindActionCreators({ selectBook: selectBook }, dispatch)
 }
 

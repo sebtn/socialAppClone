@@ -7,7 +7,7 @@ import ActiveBook from './reducer_active_book'
  * so the state that gets passed is the one that 
  * BooksReducer generates previously. 
  * Any key in the combineReducer object is a key
- * in the global state object as well   */
+ * in the global state object as well */
 const rootReducer = combineReducers({
 	books: BooksReducer,
   activeBook: ActiveBook
